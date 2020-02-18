@@ -14,6 +14,8 @@ namespace GameTop
         }
         public void IniciarJogo()
         {
+           System.Console.Write("\n PRIMEIRO JOGADOR \n");
+           //
            System.Console.Write(_jogadorA.Corre());
            System.Console.Write(_jogadorA.Chuta());
            System.Console.Write(_jogadorA.Passe());
